@@ -27,5 +27,4 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
-
 admin.site.register(models.User, UserAdmin)
